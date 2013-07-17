@@ -12,7 +12,7 @@ InstallUtils::init(InstallUtils::$INIT_APP);
 // Let's create the instance
 $moufManager = MoufManager::getMoufManager();
 
-WebLibraryInstaller::installLibrary("jQueryLibrary",
+WebLibraryInstaller::installLibrary("jQueryHistory",
 	array('vendor/mouf/javascript.historyjs/scripts/bundled/html4+html5/jquery.history.js'),
 	array(),
 	array(),
